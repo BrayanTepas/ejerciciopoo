@@ -1,4 +1,8 @@
 package src;
+//se hizo polimorfismo con @override en los metodos concentrarse y viajar
+//se hizo herencia de la clase Persona a la clase Futbolista
+//se hizo encapsulamiento con los atributos de la clase Futbolista
+//la abstraccion se cumple con modificar los metodos abstractos concentrarse y viajar que se encuentran en la clase Persona
 
 public class Futbolista extends Persona {
     private Integer dorsal;
@@ -43,7 +47,7 @@ public class Futbolista extends Persona {
     public void viajar() {
         System.out.println("El futbolista viaja con el equipo.");
     }
-    
+
     public void jugarPartido() {
         System.out.println("El futbolista juega un partido.");
     }
